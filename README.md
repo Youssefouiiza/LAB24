@@ -9,11 +9,11 @@ docker-compose up -d
 docker-compose ps
 ```
 
-## 1. État des conteneurs
+## 1. Images Docker
 
-![docker-compose ps](smarthouse/screenshots/1-docker-compose-ps.png)
+![Images Docker](smarthouse/screenshots/1-docker-images.png)
 
-Les quatre conteneurs (mysql, backend, frontend, phpmyadmin) sont en cours d'exécution avec leurs ports exposés (3306, 8085, 80, 8081).
+Les images `smarthouse-frontend` et `smarthouse-backend` construites avec `docker-compose build`, ainsi que `mysql` et `phpmyadmin`, sont disponibles dans Docker Desktop et utilisées par les conteneurs en cours d'exécution.
 
 ## 2. Application frontend sur http://localhost
 

@@ -1,0 +1,6 @@
+.idea/
+**/.git-prof-backup/
+**/target/
+**/node_modules/
+**/dist/
+**/.angular/
